@@ -19,6 +19,16 @@ crdt:Label("Ad my script: IgromanvTV#3079")
 crdt:Label("Server discord: https://discord.gg/CwVevtGAZG")
 crdt:Label("Special for Rex <3")
 
+local local = win:Server("All Game", "")
+
+local glbl = local:Channel("GlobalScript")
+glbl:Button(
+	"Animation",
+	function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/h4CbmhTt"))()
+ 	end
+)
+
 local psx = win:Server("Pet Simulator X", "")
 
 local psxc = psx:Channel("Hubs")
